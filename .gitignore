@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <style>
+a:link{
+ color: red;
+}
+
+a:visited{
+ color: blue;
+}
+
+a:hover{
+ color: orange;
+}
+
+a:red{
+ color: red;
+}
+
+a:link, a:visited {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 24px 125px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+</style> -->
+</head>
+
+<body>
+ <!-- mau dung style -->
+<a href="http://www.w3schools.com" style="color: blue; font-size: 100px">This is a link  </a>
+
+<!-- mau dung font -->
+<p> 	
+ <font color = red ; size = 100px> This is the your website </font>  </p>
+
+
+<p>	-------------</p>
+
+
+ <!Doctype html> <!-- Khai báo phiên bản sử dụng html 5-->
+<HTML> <!--thẻ khai báo bắt đầu mã html-->
+<HEAD> <!--thẻ khai báo bắt đầu phần head ( phần đầu ) -->
+<meta charset="UTF-8">
+<TITLE>HTML - Hello World</TITLE> <!-- Tiêu đề trang web -->
+</HEAD> <!-- kết thúc phần head -->
+<BODY> <!-- bắt đầu phần thân -->
+<H1>Thẻ tạo danh sách không thứ tự</H1>
+<p><!--thẻ xác định đoạn văn bản-->
+    Đây là loại danh sách đơn giản nhất mà bạn có thể thêm vào tài liệu HTML
+    <hr align="left" width="50%"> <!--thẻ tạo đường thẳng-->
+    <h3>Hoa</h3>
+    <ul> <!-- bắt đầu thẻ tạo danh sách không thứ tự-->
+        <li>Hoa Hồng</li> <!--một phần tử của danh sách-->
+        <li>Hoa Lan</li>
+    </ul> <!-- kế thúc danh sách không thứ tự-->
+    <h3>Qủa</h3>
+    <ul> 
+        <li>Qủa Cam</li>
+        <li>Táo</li>
+    </ul> 
+</p>
+<H1>Thẻ tạo danh sách có thứ tự</H1>
+<p>
+    <h3>Ngày trong tuần:</h3>
+    <OL> <!--bắt đầu thẻ tạo danh sách có thứ tự-->
+        <LI>Thứ 2</LI>
+        <LI>Thứ 3</LI>
+        <LI>Thứ 4</LI>
+        <LI>Thứ 5</LI>
+        <LI>Thứ 6</LI>
+    </OL> <!-- kết thúc thẻ tạo danh sách có thứ tự-->
+
+<p> ---------------</p>
+
+<OL> <!-- bat dau thẻ tạo danh sách có thứ tự-->
+<LI> Monday</LI>
+    <OL>
+        <LI TYPE = "i"> Introduction to HTML</LI>
+        <LI TYPE = "i"> Creating Lists</LI>
+    </OL>
+<LI> Tuesday</LI>
+    <OL>
+        <LI TYPE = "A"> Creating Tables</LI>
+        <LI TYPE = "A"> Inserting Images</LI>
+    </OL>
+<LI> Wednesday</LI>
+    <OL START = 5>  <!-- # start : bat dau so thu tu-->
+        <LI> Creating forms</LI>
+        <LI> Working with Frames</LI>
+    </OL>
+<LI> Thursday</LI>
+<LI> Friday</LI>
+<UL> <!-- thẻ tạo danh sách khong có thứ tự-->
+    <LI type="disc">Mặc định</LI>
+    <LI type="circle">Hình tròn</LI>
+    <LI type="square">Hình Vuông</LI>
+</UL> <!-- kết thúc danh sách không thứ tự-->
+</OL> <!-- kết thúc thẻ tạo danh sách có thứ tự-->
+
+<p>  ----------------------</p>
+
+<DL> <!-- bắt đầu danh sách định nghĩa-->
+    <DT> Sunday HTML và JavaScript <!--định nghĩa-->
+        <DD> The first day of the week <!-- điều khoản-->
+    <DT> HTML 
+    <DD> Hyper Text Markup Language
+        <DT> Internet
+    <DD> A network of networks
+        <DT> TCP/IP
+    <DD> Transmission Control Protocol / Internet Protocol 
+</DL> <--kết thúc danh sách định nghĩa-->
+
+</p>
+</BODY> <!-- kết thúc phần thân -->
+</HTML> <!-- kết thúc mã html-->
+
+</body>
+</html>
